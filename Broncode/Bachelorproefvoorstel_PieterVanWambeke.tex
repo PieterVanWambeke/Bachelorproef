@@ -1,0 +1,128 @@
+{\tiny {\tiny \label{\part{\right) }}}}%==============================================================================
+% Sjabloon onderzoeksvoorstel bachelorproef
+%==============================================================================
+% Gebaseerd op LaTeX-sjabloon ‘Stylish Article’ (zie voorstel.cls)
+% Auteur: Jens Buysse, Bert Van Vreckem
+
+% TODO: Compileren document:
+% 1) Vervang ‘naam_voornaam’ in de bestandsnaam door je eigen naam, bv.
+%    buysse_jens_voorstel.tex
+% 2) latexmk -pdf naam_voornaam_voorstel.tex
+% 3) biber naam_voornaam_voorstel
+% 4) latexmk -pdf naam_voornaam_voorstel.tex (1 keer)
+
+\documentclass[fleqn,10pt]{voorstel}
+
+%------------------------------------------------------------------------------
+% Metadata over het artikel
+%------------------------------------------------------------------------------
+
+\JournalInfo{HoGent Bedrijf en Organisatie} % Journal information
+\Archive{Onderzoekstechnieken 2016 - 2017} % Additional notes (e.g. copyright, DOI, review/research article)
+
+%---------- Titel & auteur ----------------------------------------------------
+
+% TODO: geef werktitel van je eigen voorstel op
+\PaperTitle{Best Practices Ansible Conﬁguration Management }
+\PaperType{Onderzoeksvoorstel Bachelorproef} % Type document
+
+% TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
+\Authors{Pieter Van Wambeke\textsuperscript{1}
+\affiliation{\textbf{Contact:}
+  \textsuperscript{1} \href{mailto:pieter.vanwambeke.u8838@student.hogent.be}{pieter.vanwambeke.u8838@student.hogent.be};
+  
+
+%---------- Abstract ----------------------------------------------------------
+
+  \Abstract{Ik heb besloten om de best practices van Ansible Conﬁguration Management te gaan onderzoeken met de nadruk op veiligheid. Dit onderzoek is nodig omdat de beveiliging van netwerken steeds belangrijker wordt in een wereld met almaar meer mensen die de zwakke punten in een netwerk willen uitbuiten. Ik ga de huidige best practices die bekend zijn testen op waarom ze er zijn en ik hoop tijdens mijn onderzoek nieuwe best practices tegen te komen. Ik verwacht dat ik door te testen begrijp waarom er bepaalde best practices zijn en hoop nieuwe best practices tegen te komen. Security zal altijd een belangrijke rol spelen, dus dit is een werk dat zeker zijn meerwaarde zal hebben voor de toekomst. 
+}
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+% TODO: Sleutelwoorden:
+%
+% Het eerste sleutelwoord beschrijft het onderzoeksdomein. Je kan kiezen uit
+% deze lijst:
+%
+% - Mobiele applicatieontwikkeling
+% - Webapplicatieontwikkeling
+% - Applicatieontwikkeling (andere)
+% - Systeem- en netwerkbeheer
+% - Mainframe
+% - E-business
+% - Databanken en big data
+% - Machine learning en kunstmatige intelligentie
+% - Andere (specifieer)
+%
+% De andere sleutelwoorden zijn vrij te kiezen
+
+\Keywords{Systeem- en netwerkbeheer. Ansible --- Security --- Best practices} % Keywords
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+
+%---------- Titel, inhoud -----------------------------------------------------
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+%---------- Inleiding ---------------------------------------------------------
+
+\section{Introductie} % The \section*{} command stops section numbering
+\label{sec:introductie}
+
+Ik ga de best practices van Ansible Conﬁguration Management onderzoeken. Ik wil dit onderzoeken omdat dit een belangrijk punt is op vlak van beveiliging en omdat dit een veelgebruikte automatiseringstool is in de IT-wereld. Ik wil de huidige best practices toetsen en eventueel nieuwe best practices opstellen als ik deze vind tijdens mijn onderzoek. De onderzoeksvraag luidt: Wat zijn de best practices op vlak van security voor Ansible Conﬁguration Management?
+
+
+%---------- Stand van zaken ---------------------------------------------------
+
+\section{State-of-the-art}
+\label{sec:state-of-the-art}
+
+Er zijn al gelijkaardige onderzoeken uitgevoerd naar bestpractices rond Ansible. Zo is er de bachelorproef van J¨urgen Van Meerhaeghe(Meerhaeghe,2015),maardiegingnietdieperin op security. Daarin wordt SELinux vermeld, maar daar blijft het dan ook bij. Vooral het boek Ansible for DevOps (Geerling, 2017) geeft al een goede inkijk in best practices wat betreft security. De auteur van dit boek raadt net als J¨urgen Van Meerhaeghe aan om SELinux te gebruiken, maar gaat dieper in op zaken als poorten en ongebruikte software. Zo zet je best enkel de benodigde poorten open en verwijder je
+best ongebruiktesoftware. Als conclusie kan jestellen dat het vooral gaat om het verhinderen van ongeautoriseerde toegang tot je netwerk. Je mag gerust gebruik maken van subsecties in dit onderdeel.
+
+
+% Voor literatuurverwijzingen zijn er twee belangrijke commando's:
+% \autocite{KEY} => (Auteur, jaartal) Gebruik dit als de naam van de auteur
+%   geen onderdeel is van de zin.
+% \textcite{KEY} => Auteur (jaartal)  Gebruik dit als de auteursnaam wel een
+%   functie heeft in de zin (bv. ``Uit onderzoek door Doll & Hill (1954) bleek
+%   ...'')
+
+
+
+%---------- Methodologie ------------------------------------------------------
+\section{Methodologie}
+\label{sec:methodologie}
+
+Hier beschrijf je hoe je van plan bent het onderzoek te voeren. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
+
+%---------- Verwachte resultaten ----------------------------------------------
+\section{Verwachte resultaten}
+\label{sec:verwachte_resultaten}
+
+Hier beschrijf je welke resultaten je verwacht. Als je metingen en simulaties uitvoert, kan je hier al mock-ups maken van de grafieken samen met de verwachte conclusies. Benoem zeker al je assen en de stukken van de grafiek die je gaat gebruiken. Dit zorgt ervoor dat je concreet weet hoe je je data gaat moeten structureren.
+
+%---------- Verwachte conclusies ----------------------------------------------
+\section{Verwachte conclusies}
+\label{sec:verwachte_conclusies}
+
+Hier beschrijf je wat je verwacht uit je onderzoek, met de motivatie waarom. Het is \textbf{niet} erg indien uit je onderzoek andere resultaten en conclusies vloeien dan dat je hier beschrijft: het is dan juist interessant om te onderzoeken waarom jouw hypothesen niet overeenkomen met de resultaten.
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: de gerefereerde werken moeten in BibTeX-bestand ``biblio.bib''
+% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
+% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
+% BibLaTeX mode)
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}
