@@ -1,0 +1,86 @@
+%==============================================================================
+% Sjabloon onderzoeksvoorstel bachelorproef
+%==============================================================================
+% Gebaseerd op LaTeX-sjabloon ‘Stylish Article’ (zie voorstel.cls)
+% Auteur: Jens Buysse, Bert Van Vreckem
+
+\documentclass[fleqn,10pt]{voorstel}
+
+%------------------------------------------------------------------------------
+% Metadata over het voorstel
+%------------------------------------------------------------------------------
+
+\JournalInfo{HoGent Bedrijf en Organisatie}
+\Archive{Bachelorproef 2017 - 2018} % Of: Onderzoekstechnieken
+
+%---------- Titel & auteur ----------------------------------------------------
+
+% TODO: geef werktitel van je eigen voorstel op
+\PaperTitle{De toekomst van server based computing}
+\PaperType{Onderzoeksvoorstel Bachelorproef} % Type document
+
+% TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
+\Authors{Pieter Van Wambeke\textsuperscript{1}} % Authors
+\CoPromotor{Stephan Teerlinck\textsuperscript{2} (Orbid)}
+\affiliation{\textbf{Contact:}
+  \textsuperscript{1} \href{mailto:pieter.vanwambeke.u8838@student.hogent.be}{pieter.vanwambeke.u8838@student.hogent.be};
+  \textsuperscript{2} \href{mailto:stephan.teerlinck@orbid.be}{stephan.teerlinck@orbid.be};
+
+}
+
+%---------- Abstract ----------------------------------------------------------
+
+\Abstract{In dit onderzoek zal worden nagegaan of het einde in zicht is van server based computing in de nabije toekomst, meer precies of het einde in zicht is van Citrix en Microsoft RDS. Dit werk is belangrijk omdat meer en meer bedrijven overschakelen naar alternatieven in plaats van SBC. Maar hoe vindt dit plaats en wat zijn de voor en nadelen hiervan en hoe wordt dit in de praktijk bij bedrijven uitgevoerd. Waar verwijnt SBC en waar niet? Er zal nagegaan worden wat de voor en nadelen zijn van SBC en of men terug zal keren naar smart endpoints en waarom. Het onderzoek zal uitgevoerd worden in het bedrijf Orbid, waar zal nagegaan worden wat de huidige structuur is van het bedrijf en wat hun huidige oplossingen zijn naar de klanten toe nu en in de toekomst. Ook zal gekeken worden of we terug zullen gaan naar decentrale opslag in plaats van centraal en wat de evolutie is hiervan. De verwachting zal zijn dat SBC stilaan zal overschakelen naar alternatieven zoals VDI en eventueel terug zal keren naar smart end devices maar dit nooit helemaal zal verdwijnen. De conclusie zal zijn dat bedrijven altijd zullen zoeken naar de beste en goedkoopste oplossigngen en altijd zullen meegaan met hun tijd.
+}
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+% TODO: Sleutelwoorden:
+%
+% Het eerste sleutelwoord beschrijft het onderzoeksdomein. Je kan kiezen uit
+% deze lijst:
+%
+% - Mobiele applicatieontwikkeling
+% - Webapplicatieontwikkeling
+% - Applicatieontwikkeling (andere)
+% - Systeembeheer
+% - Netwerkbeheer
+% - Mainframe
+% - E-business
+% - Databanken en big data
+% - Machineleertechnieken en kunstmatige intelligentie
+% - Andere (specifieer)
+%
+% De andere sleutelwoorden zijn vrij te kiezen
+
+\Keywords{Onderzoeksdomein. Citrix --- RDS --- Orbid} % Keywords
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+
+%---------- Titel, inhoud -----------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+% De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
+% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+\input{voorstel-inhoud}
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
+% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
+% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
+% BibLaTeX mode)
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}
