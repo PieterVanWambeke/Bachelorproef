@@ -1,0 +1,1 @@
+Deze bachelorproef zal gaan over de toekomst van server based computing. Gaan we stilaan overschakelen naar serverless computing. Met andere woorden keren we terug naar smart endpoints ? En hoe gebeurt de dataopslag vandaag en hoe zal dit evolueren. Ik zal dan kijken of services zoals RDS/Citrix nog evenveel van toepassing zullen zijn naar de toekomst toe.
