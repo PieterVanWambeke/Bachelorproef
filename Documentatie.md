@@ -1,6 +1,6 @@
-Deze bachelorproef zal gaan over de toekomst van server based computing. Gaan we stilaan overschakelen naar serverless computing. Met andere woorden keren we terug naar smart endpoints/smart devices of alternatieven zoals VDI (gaat het terug naar de client)? 
+P : Deze bachelorproef zal gaan over de toekomst van server based computing. Gaan we stilaan overschakelen naar serverless computing. Met andere woorden keren we terug naar smart endpoints/smart devices of alternatieven zoals VDI (gaat het terug naar de client)? 
 
-En hoe gebeurt de dataopslag vandaag en hoe zal dit evolueren (centraal / decentraal). Ik zal dan ook kijken of services zoals RDS/Citrix nog evenveel van toepassing zullen zijn naar de toekomst toe.
+S :En hoe gebeurt de dataopslag vandaag en hoe zal dit evolueren (centraal / decentraal). Ik zal dan ook kijken of services zoals RDS/Citrix nog evenveel van toepassing zullen zijn naar de toekomst toe.
 
 -----
 
