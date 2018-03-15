@@ -92,4 +92,61 @@ Citrix -> ….
 Cisco -> ….
 SBC oplossingen zoeken
 
+---
+
+Citrix en Microsoft in SBC
+SBC-variant van client-server
+Microsoft en citrix werken goed samen omtrent SBC.
+Citrix was de eerste op de markt die opkwam met SBC-programma’s. 
+Citrix heeft nooit echt een grote concurrent gehad op de markt van SBC en was altijd de leider zeker ook door de goede samenwerking met Microsoft. 
+XenApp is de oplossing van Citrix maar nu heeft VMware ook een SBC-oplossing. 
+
+Voordelen van SBC 
+-	Lagere kosten voor IT-beheer 
+-	Beter te beveiliging 
+-	Lager kosten hardware 
+-	Lager energieverbruik
+-	Minder diefstalgevoelig
+-	Zware omgevingen
+-	Minder netwerkbelasting
+-	Efficiënter gebruik van resources
+-	Eenvoudige hardware uitbreidingen
+
+Nadelen SBC:
+-	Hogere server requirements
+-	Slechtere multimedia performance
+-	Minder flexibiliteit
+
+Andere producten zoals Dell vWorkspace, Thinspace (ProPalms) TSE, desktopsites’ Konect Elite, Ericom PowerTerm WebConnect maar weinig van deze kunnnen concureren tegenover citrix.
+XenApp 6.5 product was geannuleerd en de eigenschappen gingen naar XenDesktop hierdoor waren veel gebruikers niet tevreden. 
+VMware Horizon 6.
+Citrix heeft een minder periode gehad waarbij veel klanten kozen voor concurrenten ook door het kiezen van een nieuwe CEO en mankementen technische richting. 
+Citrix heeft nog steeds zeer veel klanten onder zijn beschikking die niet zomaar gaan veranderen van kant. 
+
+ 
+
+
+http://searchvirtualdesktop.techtarget.com/opinion/Server-based-computing-market-blazes-as-Citrix-vs-VMware-fight-rages
+
+Citrix XenApp en XenDesktop vs. VMware Horizon,
+Citrix en VMware zijn de 2grootste huidige speler op de markt op vlak van SBC/VDI-markt, ik ga hun beide producten bekijken en vergelijken. 
+
+https://www.citrix.nl/products/xenapp-xendesktop/compare.html
+
+https://nl.wikipedia.org/wiki/Server_based_computing
+TCO: total cost of ownership
+
+“The TCO of an SBC deployment used to deliver all applications to users is 8% to 13% lower than that of a locked and well-managed PC deployment, and up to 44 to 47% lower than that of an unmanaged desktop deployment.”
+
+VMware offert geen SBC-oplossing, VMware offert alleen VDI als deel van desktop offering. 
+
+https://www.citrix.com/blogs/2009/08/21/has-citrix-abandoned-server-based-computing/
+
+mss onderwerp veranderen naar SBC vs VDI.
+http://www.resultaatgroep.nl/blog/2017/11/15/heeft-server-based-computing-nog-toekomst-deel-2/
+
+VDI is een nieuwere vorm van centralized computing terwijl SBC de oudere versie is van centralized computing.
+
+ 
+
 
