@@ -201,6 +201,56 @@ In de cloud makkelijk prijzen bereken en goedkoper men kijkt gewoon naar het aan
 SBC/VDI makkelijk prijzen bereken kijken hoeveel gebruikers en hoeveel data men verbruikt. (???)
 
 
+---
+
+XenApp/ XenDesktop heeft remote desktop services nodig om goed te functioneren.
+
+MRD pro’s en cons:
+RDS offert een singular aanpak om applicaites op te leveren boven een windows server operationg system
+http://markets.businessinsider.com/news/stocks/citrix-xenapp-and-xendesktop-services-now-available-in-oracle-cloud-marketplace-1011082514
+
+Citrix business aanpak:
+
+ 
+Men ziet da citrix een stijgend vermogen heeft.
+XenApp en XenDesktop zijn nu beschikbaar in de Oracle cloud Marketplace.
+
+Benefits of VDI:
+•	Utilization of Same Image.
+•	Management of a Single OS Can Reduce Costs.
+•	Processing moves from individual workstations to a VDI server.
+•	Troubleshooting Problems is Easier.
+•	Data is More Secure.
+
+Benefits of RDS:
+•	Single point of maintenance.
+•	Install once, use many.
+•	Reduced licenses expense.
+•	Solid Security.
+•	Lower Costs.
+http://www.brianmadden.com/opinion/Why-its-finally-time-for-Microsoft-to-buy-Citrix-Heres-our-full-analysis
+
+
+VMware Horizon View:
+
+Microsoft ziet VMware als een concurent. 
+
+Net als VMware sterker aan het worden is wordt citrix steeds zwakker.
+Citrix krijgt druk van elliott, werknemers die weggaan negatieve quarter-over quarter sales een lange tijd moeten zoeken voor een nieuwe CEO. Strategy dat niet altijd optimaal is.
+Dus microsoft kan niet altijd vertrouwen op citrix. Een zwak citrix is slecht voor microsoft.
+Microsoft en Citirx zijn al voor meer dan 25 jaar trouwe partners. Ze hebben meer dan 230k gezamenlijk klanten. 
+
+-	Kijken naar toekomst SBC 
+-	Kijken grote marktspelers en producten
+-	Kijken naar stabiliteit van deze houders en waarom hun producten goed zijn en naar de toekomst gericht 
+-	Welke marktspelers het sterkst staan
+The hedge fund elliott managment owned 7% van citrix sinds 2015.
+http://www.citrixguru.com/2017/04/10/microsoft-dont-buy-citrix/
+http://www.synextra.co.uk/citrix-vs-rds-2016-best-hosted-desktop/
+
+
+
+
 
 
  
