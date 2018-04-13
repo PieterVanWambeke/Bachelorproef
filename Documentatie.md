@@ -249,6 +249,61 @@ http://www.citrixguru.com/2017/04/10/microsoft-dont-buy-citrix/
 http://www.synextra.co.uk/citrix-vs-rds-2016-best-hosted-desktop/
 
 
+----
+
+BP uitgeschreven:
+
+(Uitleg gevraagd aan promotor, die een algemene situatieschets heeft gegeven omtrent mijn onderwerp)
+
+Voor Server based computing zijn de meest gebruikte providers Microsoft met remote desktop/app 
+En Citrix met XenApp/XenDesktop. 
+
+De Citrix producten zijn iets complexer en meer in detail ten opzichte van Microsoftproducten met Citrix heeft men meer specialisatie opties en meer policy’s. De keuze om te kiezen voor 16 bit schermen enzovoort.  
+
+XenApp biedt de mogelijkheid om 1 applicatie te openen en te laten draaien. De applicatie wordt dan geopend op de lokale (centrale) server. Deze applicatie draait als een andere gewone applicatie op je besturingssysteem. 
+
+De Citrix producten zijn dan ook niet gratis ten opzichte van Microsoftproducten die ingebouwd zijn in de windows server edities. Bij remote desktop/app kan je wel extra licenties bijbetalen. Voor XenApp/XenDesktop moet je dus betalen, deze producten zijn dan over het algemeen een stuk gebruiksvriendelijker en hebben meer functies. 
+
+Veel bedrijven/klanten blijven bij de SBC-omgeving. Hoewel er nieuwere toepassingen zijn en betere oplossingen. Zijn veel bedrijven zeker die niet IT-gericht zijn geneigd om bij hun huidige structuur te blijven. Zolang het werkt is het goed voor velen. Indien ze een vernieuwing mensen moeten ze gans de omgeving (infrastructuur, hardware) vernieuwen maar ook alle bestaande applicaties moeten verplicht worden vernieuwd dit kost natuurlijk tijd en geld. 
+
+Indien men gebruik maakt van volledige desktopoplossingen (full desktop), heeft men wel altijd een netwerkconnectie nodig het voordeel is wel dat het goedkopere oplossingen biedt aangezien men kan overstappen naar thin-clients.
+
+Veel hangt ook af aan de voorkeur van de klant. Er is een bedrijf waar ze maar met 5 werknemers zijn toch gebruik maken van Citrix XenApp/XenDesktop omdat ze het gebruiksvriendelijker vinden en makkelijker hanteerbaar is.
+
+Dankzij SBC staat ook alles centraal beheerd meestal bij het bedrijf zelf, waardoor gegevens snel traceerbaar zijn en men weet waar de data staat. 
+
+Veel klanten/bedrijven zijn ook nog niet klaar voor te migreren want migratie kost ook veel tijd en geld en moet er ook nagegaan/onderzocht worden hoelang dit gaat duren en hoeveel geld dit gaat kosten. 
+
+Volgens mijn stagementor hebben de meeste bedrijven in Vlaanderen een eerder afwachtende houding als het aankomt op technologie vernieuwing. Ze blijven hun ding doen zolang het werkt want ze hebben de tijd/budget/zin niet om een gans nieuwe technologie laten implementeren. 
+
+Thin clients kan je ook makkelijk laten verbinden met Azure. ( ??? ) 
+
+Het gaat dus nog lang duren voor men gaat afstappen van SBC. Maar binnen 10-20 jaar gaat men wel veel meer geneigd zijn naar cloud oplossingen. De cloud wereld wordt ook steeds groter en groter en er komen steeds meer producten op de markt zoals Egnyte, ShareFile die cloud oplossingen bieden. 
+
+Voor nieuwe bedrijven is dit dan meestal de beter oplossing aangezien men zo minder hardware/infrastructuur omgevingen moet omzetten waardoor men toch een pak geld spaart ook is er geen onderhoud nodig in de cloud.
+
+VDI en SBC lopen naast elkaar, er wordt vaak beweerd dat VDI een beter oplossing is als SBC maar dit is opnieuw volledig afhankelijk van de omgeving hoe het toegepast wordt en met welke doeleinden. 
+
+Als men honderden gebruikers nodig heeft zou men in indien men VDI gebruikt voor elke gebruiker apart een omgeving moeten opzetten dit is natuurlijk allesbehalve optimaal.
+
+Bij SBC maakt men dan gewoon meerdere servers aan met elk een aantal gebruikers men kan dan ook makkelijk servers toevoegen of verwijderen. Het nadeel wel aan dit soort werken is als 1 iemand een fout maakt of ervoor zorgt dat server niet meer werkt, werkt deze server voor alle gebruikers niet.
+ 
+VDI-oplossingen zijn wel meer naar de cloud gericht. ( ??? ) 
+VDI werkt met windows 7,8,10 terwijl SBC met windows server werkt. 
+VDI heeft ook meer geheugen nodig snel 4GB ram per VM.  
+
+Ook met Citrix is het makkelijker om VMs aan te maken, je kan ze allemaal gelijke tijd aanmaken aan een snel tempo in plaats van ze een voor aan te maken. Dit kan veel tijd kosten zeker voor bedrijven die telkens honderden virtuele machines moeten aanmaken. Het werkt namelijk met templates waardoor dit in een snel proces kan gebeuren. 
+
+De visie van Microsoft is wel om meer en meer over te schakelen naar apps en smart end devices. Ze zien ook dat SBC verouderd aan het geraken is en willen zoveel mogelijk toekomstgericht werken natuurlijk gaat dat niet van vandaag op morgen.  Ze willen alles in de cloud plaatsen in plaats van op een server. Alle Dynamics webbased maken. 
+
+Natuurlijk waarom men niet alles naar de cloud wil gooien is omdat veel bedrijven nog graag hun gegevens on-premise ter beschikking willen hebben. Voornamelijk zodat ze dan meer controle hebben over de security. Men ziet toch dat men nog altijd schrik heeft om gevoelige data in de cloud te gooien.
+
+In de cloud makkelijk prijzen bereken en goedkoper men kijkt gewoon naar het aantal gebruikers en aantal verbruikte data.
+
+SBC/VDI makkelijk prijzen bereken kijken hoeveel gebruikers en hoeveel data men verbruikt. (???)
+
+
+
 
 
 
